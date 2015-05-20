@@ -1,0 +1,36 @@
+p{text-align: center; color: #E6E6E6; font-size: 80%; font-weight: bold;}
+h2{text-align: center;}
+.section1{background-color: #E3AA9A}
+.section2{background-color: #EDB2B7}
+.section3{background-color: #DBCDDE}
+.section5{background-color: #B3A5B5}
+.section4{position: relative;}
+.section4 p{color: #000000;}
+.head-wrap{background-color: #423f46; position: absolute; top: 0; left: 0; width: 100%;}
+.back{position: absolute; left: 5px; font-size: 20%; color: #ffffff; line-height: 40px;}
+.head-wrap p{font-size: 50%; text-align: center; color: #ffffff;}
+.container-wrap i{display: block; color: #40b737; text-align: center;}
+.detail span{font-size: 50%; -webkit-transform:scale(0.8); display:block;}
+.section4 .container-wrap h3{color: #000000; text-align: center;}
+.section4 .check{color: #817f82;}
+.bottom-wrap{position: absolute; width: 100%; bottom: 5px;}
+.bottom-wrap p{font-size: 30%; color: #817f82;}
+#menu { margin: 0; padding: 0; position: fixed; left: 10px; top: 10px; list-style-type: none; z-index: 70;}
+#menu li { float: left; margin:  0 10px 0 0; font-size: 14px;}
+#menu a { float: left; padding: 10px 20px; background-color: #fff; color: #333; text-decoration: none;}
+#menu .active a { color: #fff; background-color: #333;}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('//at.alicdn.com/t/font_1432112517_6836357.eot'); /* IE9*/
+    src: url('//at.alicdn.com/t/font_1432112517_6836357.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//at.alicdn.com/t/font_1432112517_6836357.woff') format('woff'), /* chrome、firefox */
+    url('//at.alicdn.com/t/font_1432112517_6836357.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('//at.alicdn.com/t/font_1432112517_6836357.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
